@@ -1,0 +1,274 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    background-color: #3E497A;
+}
+
+.jumbotron{
+    background-color: #21325E;
+    color: white;
+    padding: 100px;
+    text-align: center;
+    background-image: url('https://wallpaperaccess.com/full/31189.jpg');
+    background-size: cover;
+    background-position: 0px 750px;
+}
+
+.navbar{
+    background-color: #D49A89;
+    width: 100%;
+    overflow: auto;
+    height: 50px;
+}
+
+.navbar li{
+    margin-right: 55px;
+    float: left;
+    list-style-type: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color:white;
+}
+
+.page-slice{
+    width: 10%;
+    border: none;
+    border-top:15px dotted;
+    color: white
+}
+
+.dropdown-list{
+    display: none;
+    width: 150px;
+    position: absolute;
+    z-index: 1;
+    background-color: #D49A89;
+    line-height: 2;
+    margin-top: 15px;
+    margin-left: 5px;
+    border: 1px solid;
+    border-top:none;
+}
+
+.dropdown-list a{
+    display: block;
+    float: none;
+    text-align: left;
+}
+
+.dropdown-list a:hover{
+    background-color: white;
+    color: black;
+}
+
+.dropbtn{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #D49A89;
+}
+
+.dropbtn:hover{
+    color: white;
+}
+
+.section-title{
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 75%;
+    text-align: center;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: -5px -5px #888888 ;
+}
+
+.section-title2{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 75%;
+    text-align: center;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: -5px -5px #888888 ;
+}
+
+.container{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 75%;
+    text-align: center;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: -5px -5px #888888 ;
+    padding-bottom: 10px;
+}
+
+.konten_wisata{
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 75%;
+    text-align: center;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: -5px -5px #888888 ;
+}
+
+img{
+    width: 500px;
+}
+
+.content_desc{
+    text-align: left;
+    margin-left: 15px;
+}
+
+.desc_detail{
+    text-align: left;
+    margin-left: 15px;
+}
+
+.aside{
+    float: right;
+    width: 20%;
+    text-align: center;
+    margin-right: 10px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: -5px -5px #888888 ;
+}
+
+.aside img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.aside p{
+    font-size: 1.20rem;
+    text-align: left;
+    margin-left: 15px;
+}
+
+table{
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+tr{
+    line-height: 2rem;
+}
+
+.nama-table{
+    width: 25%;
+}
+
+.komentar-pengunjung{
+    width: 75%;
+}
+
+.form{
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    overflow: auto;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn-submit {
+    background: #3498db;
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    float: right;
+  }
+  
+  .btn-submit:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+  }
+
+footer{
+    background-color: #E5DCC3;
+    height: 75px;
+    text-align: center;
+    padding-top: 32.5px;
+    color: #362706;
+}
+
+@media (max-width: 768px){
+    img{
+        width: 350px;
+    }
+
+    .aside{
+        float:none;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .section-title{
+        float:none;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .konten_wisata{
+        float:none;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 520px){
+    img{
+        width: 250px;
+    }
+
+    .aside{
+        float:none;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .section-title{
+        float:none;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .konten_wisata{
+        float:none;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
